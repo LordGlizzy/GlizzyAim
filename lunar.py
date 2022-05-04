@@ -52,13 +52,15 @@ if __name__ == "__main__":
     os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
 
     print(colored('''
-    | |
-    | |    _   _ _ __   __ _ _ __
-    | |   | | | | '_ \ / _` | '__|
-    | |___| |_| | | | | (_| | |
-    \_____/\__,_|_| |_|\__,_|_|
+  ██████╗ ██╗     ██╗███████╗███████╗██╗   ██╗
+██╔════╝ ██║     ██║╚══███╔╝╚══███╔╝╚██╗ ██╔╝
+██║  ███╗██║     ██║  ███╔╝   ███╔╝  ╚████╔╝ 
+██║   ██║██║     ██║ ███╔╝   ███╔╝    ╚██╔╝  
+╚██████╔╝███████╗██║███████╗███████╗   ██║   
+ ╚═════╝ ╚══════╝╚═╝╚══════╝╚══════╝   ╚═╝   
+                                             
 
-    (Neural Network Aimbot)''', "yellow"))
+    (Fortnite Aimbot)''', "yellow"))
 
     path_exists = os.path.exists("lib/config/config.json")
     if not path_exists or ("setup" in sys.argv):
